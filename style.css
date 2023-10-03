@@ -28,6 +28,7 @@ main{
     display: flex;
     margin: 0 20%;
     border-radius: 10px;
+    height: 80%;
 }
 .card{
     padding: 20px;
@@ -88,14 +89,14 @@ p{
 .btn:hover{
     animation: btn forwards 0.6s ;
 }
-@media screen and (min-width : 550px) {
+@media screen and (min-width : 450px) {
     main{
 
         overflow: hidden;
 
     }
 }
-@media screen and (max-width : 550px) {
+@media screen and (max-width : 450px) {
     main{
         display: block;
         margin: 10px 30px;
@@ -104,7 +105,5 @@ p{
         overflow-x: hidden;
 
     }
-    .card{
-    
-    }
+
 }
